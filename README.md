@@ -1,8 +1,10 @@
-# ScholarCite
+# ScholarBar
 
 A macOS menu bar app that monitors your Google Scholar citations in real-time.
 
 ![macOS](https://img.shields.io/badge/macOS-15.0%2B-blue) ![Swift](https://img.shields.io/badge/Swift-6.0-orange) ![License](https://img.shields.io/badge/License-MIT-green)
+
+English | [中文](README_CN.md)
 
 ## Features
 
@@ -18,15 +20,15 @@ A macOS menu bar app that monitors your Google Scholar citations in real-time.
 
 ### Option 1: Download DMG (Recommended)
 
-1. Go to [Releases](../../releases) and download `ScholarCite.dmg`
-2. Open the DMG and drag `ScholarCite.app` to `/Applications`
+1. Go to [Releases](../../releases) and download `ScholarBar.dmg`
+2. Open the DMG and drag `ScholarBar.app` to `/Applications`
 3. First launch: right-click the app → Open (to bypass Gatekeeper for unsigned apps)
 
 ### Option 2: Build from Source
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/ScholarCite.git
-cd ScholarCite
+git clone https://github.com/lezhang7/ScholarBar.git
+cd ScholarBar
 swift build -c release
 ```
 

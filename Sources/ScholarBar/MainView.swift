@@ -103,7 +103,7 @@ struct MainView: View {
 
             VStack(alignment: .leading, spacing: 2) {
                 if store.userName.isEmpty {
-                    Text("ScholarCite")
+                    Text("ScholarBar")
                         .font(Theme.headerName)
                 } else {
                     Text(store.userName)

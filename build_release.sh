@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-APP_NAME="ScholarCite"
+APP_NAME="ScholarBar"
 BUILD_DIR=".build/release"
 APP_BUNDLE="$APP_NAME.app"
 
@@ -21,17 +21,17 @@ cat > "$APP_BUNDLE/Contents/Info.plist" << 'PLIST'
 <plist version="1.0">
 <dict>
     <key>CFBundleName</key>
-    <string>ScholarCite</string>
+    <string>ScholarBar</string>
     <key>CFBundleDisplayName</key>
-    <string>ScholarCite</string>
+    <string>ScholarBar</string>
     <key>CFBundleIdentifier</key>
-    <string>com.lezhang.scholarcite</string>
+    <string>com.lezhang.scholarbar</string>
     <key>CFBundleVersion</key>
     <string>1.0.0</string>
     <key>CFBundleShortVersionString</key>
     <string>1.0.0</string>
     <key>CFBundleExecutable</key>
-    <string>ScholarCite</string>
+    <string>ScholarBar</string>
     <key>CFBundlePackageType</key>
     <string>APPL</string>
     <key>LSMinimumSystemVersion</key>

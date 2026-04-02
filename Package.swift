@@ -2,12 +2,12 @@
 import PackageDescription
 
 let package = Package(
-    name: "ScholarCite",
+    name: "ScholarBar",
     platforms: [.macOS(.v15)],
     targets: [
         .executableTarget(
-            name: "ScholarCite",
-            path: "Sources/ScholarCite",
+            name: "ScholarBar",
+            path: "Sources/ScholarBar",
             swiftSettings: [
                 .swiftLanguageMode(.v5)
             ]

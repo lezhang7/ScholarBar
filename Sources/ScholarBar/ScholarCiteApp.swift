@@ -2,7 +2,7 @@ import SwiftUI
 import AppKit
 
 @main
-struct ScholarCiteApp: App {
+struct ScholarBarApp: App {
     @StateObject private var store = CitationStore()
 
     var body: some Scene {
